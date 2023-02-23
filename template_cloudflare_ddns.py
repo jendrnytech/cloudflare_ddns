@@ -38,7 +38,7 @@ def setDnsRecords(dns_ids, ip, proxy, auth_email, api_key, zone_id):
             "X-Auth-Key": api_key
         }
         payload = {
-            "comment": "Updated my Jendrny.tech Scipt",
+            "comment": "Updated by Jendrny.tech Scipt",
             "content": ip,
             "name": dns_id[1],
             "proxied": proxy,
